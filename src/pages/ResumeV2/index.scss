@@ -1,0 +1,58 @@
+#v2 {
+  .years {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 110px;
+    width: 100%;
+    z-index: 100;
+    .year {
+      font-size: 1.5rem;
+      padding: 0.5rem 1.5rem;
+      /*border-radius:30px;*/
+      text-decoration: none;
+      color: inherit;
+    }
+    .year:hover {
+      background-color:white;
+      cursor: pointer;
+      color: black;
+      transition: 200ms ease-in-out;
+    }
+  }
+
+
+
+
+  .content {
+    max-width: 60%;
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+    .time {
+
+    }
+    .line {
+      background-color: black;
+      width: 10px;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+
+
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  background-color: black;
+  color: white;
+}
