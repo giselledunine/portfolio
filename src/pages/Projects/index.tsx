@@ -10,20 +10,6 @@ import minimalistic from "../../assets/minimalistic.png";
 export default function Projects() {
     const experiences = [
         {
-            title: "Withings",
-            items: [
-                {
-                    link: "https://www.panier-bio-paris.fr/",
-                    thumbnail: bioculture,
-                    context: "Alternance",
-                    title: "Projet interne pour Withings",
-                    description: [
-                        "Malheureusment le projet est confidentiel donc je ne peux pas partager mon travail",
-                    ],
-                },
-            ],
-        },
-        {
             title: "Bioculture",
             items: [
                 {
