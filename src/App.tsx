@@ -60,7 +60,7 @@ function App() {
                 </div>
             </div>
             <Resume />
-            <Projects />
+            {/* <Projects /> */}
             <div className="footer">
                 <div>Footer</div>
             </div>
