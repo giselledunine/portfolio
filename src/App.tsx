@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.scss";
 import Header from "./components/Header";
 import Resume from "./pages/Resume";
-import Projects from "./pages/Projects";
+// import Projects from "./pages/Projects";
 import { gsap } from "gsap";
 
 //Images
