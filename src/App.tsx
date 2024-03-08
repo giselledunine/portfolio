@@ -8,6 +8,8 @@ import { gsap } from "gsap";
 //Images
 import profil from "./assets/protfolio-profil.svg";
 import name from "./assets/name.svg";
+import linkedin from "./assets/linkedin.png";
+import malt from "./assets/malt.png";
 
 //Icons
 import arrow from "./assets/icons/arrow.svg";
@@ -62,7 +64,48 @@ function App() {
             <Resume />
             {/* <Projects /> */}
             <div className="footer">
-                <div>Footer</div>
+                <div
+                    style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        gap: "40px",
+                        width: "100%",
+                    }}>
+                    <img
+                        style={{ filter: "invert(1)" }}
+                        height={100}
+                        src={profil}
+                        alt="profil"
+                    />
+                    <div>
+                        <div
+                            style={{
+                                display: "flex",
+                                gap: 20,
+                            }}>
+                            <a
+                                href="https://www.malt.fr/profile/sophiahmamouche"
+                                aria-label="malt">
+                                <img
+                                    style={{ filter: "grayscale(1)" }}
+                                    height={30}
+                                    src={malt}
+                                    alt="linkedin"
+                                />
+                            </a>
+                            <a href="https://www.linkedin.com/in/sophia-hmamouche-290625175/">
+                                <img
+                                    style={{ filter: "invert(1)" }}
+                                    height={30}
+                                    src={linkedin}
+                                    alt="linkedin"
+                                />
+                            </a>
+                        </div>
+                        <p>sophia.hmamouche@outlook.com</p>
+                    </div>
+                </div>
             </div>
         </>
     );
