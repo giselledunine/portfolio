@@ -21,9 +21,9 @@ export default function Header({ trigger }: { trigger: boolean }) {
                     <a href="#parcours" className="menu-link">
                         Parcours
                     </a>
-                    <a href="#projects" className="menu-link">
+                    {/* <a href="#projects" className="menu-link">
                         Projects
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <div className="margin">
