@@ -63,11 +63,11 @@ export default function Projects() {
         );
     };
     return (
-        <div id="projects">
+        <div id="projects-section">
             <div className="years">
                 <h2>Projects</h2>
             </div>
-            <div id="parcours" className="content">
+            <div id="projects" className="content">
                 <div className="timeline">
                     <div className="line"></div>
                     {experiences.map((exp) => (
