@@ -48,7 +48,7 @@ function App() {
                         <div>
                             <h1>Développeuse Fullstack</h1>
                             <h3>
-                                Bienvenu, dans mon portfolio. Tout ce que vous
+                                Bienvenue, dans mon portfolio. Tout ce que vous
                                 avez besoin de savoir sur moi et mon parcours
                                 professionnel se trouve ici :)
                             </h3>
@@ -64,14 +64,7 @@ function App() {
             <Resume />
             {/* <Projects /> */}
             <div className="footer">
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        gap: "40px",
-                        width: "100%",
-                    }}>
+                <div>
                     <img
                         style={{ filter: "invert(1)" }}
                         height={100}
@@ -79,11 +72,7 @@ function App() {
                         alt="profil"
                     />
                     <div>
-                        <div
-                            style={{
-                                display: "flex",
-                                gap: 20,
-                            }}>
+                        <div>
                             <a
                                 href="https://www.malt.fr/profile/sophiahmamouche"
                                 aria-label="malt">
