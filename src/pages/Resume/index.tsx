@@ -35,7 +35,7 @@ export default function Resume() {
                     },
                     title: "Bridge",
                     description: [
-                        "Conception et maintenance de connecteurs bancaires",
+                        "Conception et maintenance de connecteurs bancaires en Typescript et NodeJS",
                     ],
                 },
                 {
