@@ -85,22 +85,22 @@ export default function Projects() {
                                         <div className="title-timestamp">
                                             <ListTitle item={item} />
                                         </div>
-                                        <img
-                                            src={item.thumbnail}
-                                            alt="thumbnail"
-                                            width={"100%"}
-                                            style={{
-                                                marginLeft: "37px",
-                                                marginTop: "1rem",
-                                                border: "3px solid black",
-                                                borderRadius: "8px",
-                                            }}
-                                        />
-                                        <div className="link">
-                                            <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank">
+                                            <img
+                                                src={item.thumbnail}
+                                                alt="thumbnail"
+                                                width={"100%"}
+                                                style={{
+                                                    marginLeft: "37px",
+                                                    marginTop: "1rem",
+                                                    border: "3px solid black",
+                                                    borderRadius: "8px",
+                                                }}
+                                            />
+                                            <div className="link">
                                                 {item.link}
-                                            </a>
-                                        </div>
+                                            </div>
+                                        </a>
                                         <ul className="description">
                                             {item.description.map(
                                                 (des, idx) => (
