@@ -29,7 +29,7 @@ export default function Projects() {
                 {
                     link: "https://minimalistic-pegasus-agency.netlify.app/",
                     thumbnail: minimalistic,
-                    title: "Site de mentoring",
+                    title: "Projet final Bachelor - Site de mentoring",
                     description: [
                         "Stack: VueJS, Firebase",
                         "Features: Création de compte, Authentification, Ajouter un mentor, Consulter les programmes, Suivre son avancement",
@@ -64,13 +64,10 @@ export default function Projects() {
     };
     return (
         <div id="projects">
-            <div className="section-title">
-                <h1>Projects</h1>
+            <div className="years">
+                <h2>Projects</h2>
             </div>
-            <div
-                style={{ scrollMarginBlockStart: "100px" }}
-                id="projects"
-                className="content">
+            <div id="parcours" className="content">
                 <div className="timeline">
                     <div className="line"></div>
                     {experiences.map((exp) => (
@@ -99,7 +96,11 @@ export default function Projects() {
                                                 borderRadius: "8px",
                                             }}
                                         />
-                                        <p className="duration">{item.link}</p>
+                                        <div className="link">
+                                            <a href={item.link} target="_blank">
+                                                {item.link}
+                                            </a>
+                                        </div>
                                         <ul className="description">
                                             {item.description.map(
                                                 (des, idx) => (

@@ -26,7 +26,7 @@ export default function Resume() {
             ],
         },
         {
-            year: "2022",
+            year: "2022 - 2020",
             items: [
                 {
                     date: {
@@ -40,7 +40,7 @@ export default function Resume() {
                 },
                 {
                     date: {
-                        start: moment("2022-01").format("MMMM-Y"),
+                        start: moment("2020-09").format("MMMM-Y"),
                         end: moment("2022-06").format("MMMM-Y"),
                     },
                     title: "Bioculture",
@@ -50,32 +50,6 @@ export default function Resume() {
                         "Back : API NodeJS et base de données MongoDB",
                         "Outils de collaboration Github",
                     ],
-                },
-            ],
-        },
-        {
-            year: "2021",
-            items: [
-                {
-                    date: {
-                        start: moment("2021-01").format("MMMM-Y"),
-                        end: moment("2021-12").format("MMMM-Y"),
-                    },
-                    title: "Bioculture",
-                    description: ["Développeuse Web chez Bioculture"],
-                },
-            ],
-        },
-        {
-            year: "2020",
-            items: [
-                {
-                    date: {
-                        start: moment("2020-09").format("MMMM-Y"),
-                        end: moment("2020-12").format("MMMM-Y"),
-                    },
-                    title: "Bioculture",
-                    description: ["Développeuse Web chez Bioculture"],
                 },
             ],
         },
